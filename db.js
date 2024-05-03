@@ -19,7 +19,7 @@ db.connect((err) => {
   if (err) {
     console.log("Failed to connect to the database:", err.stack);
   } else {
-    console.log("Succesfully connected to the database");
+    console.log(`Succesfully connected to the database ${DB_URI}`);
   }
 });
 
